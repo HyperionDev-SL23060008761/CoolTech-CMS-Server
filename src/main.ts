@@ -30,7 +30,7 @@ app.use(
 //Setup the CORS Middleware
 app.use(cors());
 
-//Setup the Body Parser Middleware
+//Setup the JSON Middleware
 app.use(express.json());
 
 //Setup the URL Encoded Parser Middleware
