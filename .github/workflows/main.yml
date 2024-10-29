@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    runs-on: [portfolio-cooltech-cms-server]
+    runs-on: [server-alpha-hyperion-organization]
 
     steps:
       - uses: actions/checkout@v4
